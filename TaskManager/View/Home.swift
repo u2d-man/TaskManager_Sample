@@ -73,11 +73,9 @@ struct Home: View {
                             .frame(width: 45, height: 90)
                             .background(
                                 ZStack {
-                                    // MARK: - Matched Geometry Effect
                                     if calendar.isDate(date, inSameDayAs: selectedDate) {
                                         Capsule()
                                             .fill(Color("CardColor2"))
-                                        //                                    .matchedGeometryEffect(id: "currentday", in: animation)
                                     }
                                 }
                             )
