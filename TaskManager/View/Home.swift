@@ -359,18 +359,3 @@ struct CalendarWeekView_Previews: PreviewProvider {
     }
 }
 #endif
-
-// MARK: - UI design helper functions
-extension View {
-    func hLeading() -> some View {
-        self.frame(maxWidth: .infinity, alignment: .leading)
-    }
-
-    func hTrailing() -> some View {
-        self.frame(maxWidth: .infinity, alignment: .trailing)
-    }
-
-    func hCenter() -> some View {
-        self.frame(maxWidth: .infinity, alignment: .center)
-    }
-}
