@@ -7,8 +7,3 @@
 This is a sample implementation of a task calendar. It displays a weekly calendar, tasks by date, and uses ViewBuilder to build the UI.
 
 ![iphone](https://github.com/UserKazun/TaskManager_Sample/blob/master/png/iphone.png)
-
-
-## How to use
-
-Just clone it and you can use it right away!
